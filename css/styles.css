@@ -37,21 +37,24 @@ img {
   height: auto;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 .list {
-  margin: 0;
-  padding: 0;
   list-style: none;
 }
 
 .link {
   text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .hidden {
@@ -166,7 +169,6 @@ img {
 }
 
 .button {
-  display: inline-block;
   margin-top: 48px;
   padding: 16px 32px;
 
@@ -191,6 +193,7 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .features-list {
   display: flex;
 }
