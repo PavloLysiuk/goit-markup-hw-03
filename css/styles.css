@@ -38,14 +38,15 @@ img {
 }
 
 .container {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
 }
 
 .list {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -60,8 +61,6 @@ img {
 /* Header */
 
 .header {
-  padding-top: 20px;
-  padding-bottom: 21px;
   background: var(--white);
   border-bottom: 1px solid var(--cornflower);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -74,10 +73,14 @@ img {
 }
 
 .header-logo {
+  display: block;
+  padding-top: 26px;
+  padding-bottom: 24px;
+
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--navi-blue);
@@ -89,19 +92,18 @@ img {
 
 .nav-list {
   display: flex;
-  margin: 0 0 0 -256px;
-  padding: 0;
+  margin-left: -256px;
 }
 
-.nav-item {
+.nav-item:not(:last-child) {
   margin-right: 40px;
 }
 
-.nav-item:last-child {
-  margin-right: 0px;
-}
-
 .nav-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -112,25 +114,23 @@ img {
   color: var(--ocean);
 }
 
-.nav-list .nav-link.current {
+.nav-link.current {
   color: var(--ocean);
 }
 
 .contact-list {
   display: flex;
-  margin: 0;
-  padding: 0;
 }
 
-.contact-item {
+.contact-item:not(:last-child) {
   margin-right: 40px;
 }
 
-.contact-item:last-child {
-  margin-right: 0px;
-}
-
 .contact-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -144,28 +144,32 @@ img {
 /* /Header */
 /* Main */
 
+/* Hero */
+
 .hero {
+  display: flex;
+  text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
-  display: flex;
+
   background-color: var(--navi-blue);
 }
 
 .hero-title {
   max-width: 496px;
+
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: var(--white);
 }
 
 .button {
-  margin: 0 auto;
+  display: inline-block;
   margin-top: 48px;
   padding: 16px 32px;
-  display: block;
+
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -183,14 +187,12 @@ img {
 
 /* Future */
 
-.features-list {
-  margin-top: 120px;
-  padding: 0;
-  display: flex;
+.features {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
-
-.feature-item {
-  width: 264px;
+.features-list {
+  display: flex;
 }
 
 .feature-title {
@@ -208,7 +210,6 @@ img {
 /* Services */
 
 .service-title {
-  margin-top: 120px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -219,10 +220,8 @@ img {
 }
 
 .services-list {
-  margin-top: 72px;
-  margin-bottom: 0;
-  padding: 0;
   display: flex;
+  margin-top: 72px;
 }
 
 .services-item {
@@ -249,14 +248,14 @@ img {
 }
 
 .team-list {
-  margin-top: 72px;
-  margin-bottom: 0;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 72px;
 }
 
 .team-item {
   width: 264px;
+
   background: var(--white);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
@@ -283,24 +282,23 @@ img {
 /* /Main */
 /* portfolio */
 
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .filter-list {
-  padding: 0;
-  margin-top: 96px;
-  margin-bottom: 0;
   display: flex;
   justify-content: center;
 }
 
-.filter-item {
+.filter-item:not(:last-child) {
   margin-right: 23px;
-}
-
-.filter-item:last-child {
-  margin-right: 0px;
 }
 
 .filter-button {
   padding: 11px 23px;
+
   border-radius: 4px;
   font-weight: 500;
   line-height: 1.5;
@@ -322,18 +320,19 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  row-gap: 48px;
   margin-top: 72px;
-  margin-bottom: 120px;
+  row-gap: 48px;
 }
 
 .portfolio-item {
   width: 360px;
+
   background-color: var(--white);
 }
 
 .portfolio-content {
   padding: 32px 15px;
+
   border: 1px solid var(--cornflower);
   border-top: none;
 }
@@ -356,6 +355,7 @@ img {
 
 .footer {
   padding: 100px 0;
+
   background-color: var(--navi-blue);
 }
 
@@ -376,6 +376,7 @@ img {
 .footer-text {
   margin-top: 16px;
   width: 264px;
+
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cornflower);
