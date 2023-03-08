@@ -61,7 +61,7 @@ ul {
   display: none;
 }
 
-/* Header */
+/**--------------------- Header ---------------------*/
 
 .header {
   background: var(--white);
@@ -72,10 +72,6 @@ ul {
 .header-nav {
   display: flex;
   align-items: center;
-}
-
-.nav {
-  flex-grow: 1;
 }
 
 .header-logo {
@@ -90,7 +86,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--navi-blue);
-  outline: 2px solid tomato;
 }
 
 .header-logo span {
@@ -115,7 +110,6 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navi-blue);
-  outline: 2px solid tomato;
 }
 
 .nav-link:is(:hover, :focus) {
@@ -126,9 +120,11 @@ ul {
   color: var(--ocean);
 }
 
+.header-contacts {
+  margin-left: auto;
+}
 .contact-list {
   display: flex;
-  margin-left: auto;
 }
 
 .contact-item:not(:last-child) {
@@ -144,17 +140,13 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
-  outline: 2px solid tomato;
 }
 
 .contact-link:is(:hover, :focus) {
   color: var(--ocean);
 }
 
-/* /Header */
-/* Main */
-
-/* Hero */
+/**--------------------- Hero ---------------------*/
 
 .hero {
   display: flex;
@@ -194,7 +186,7 @@ ul {
   background: var(--ocean);
 }
 
-/* Future */
+/**--------------------- Future ---------------------*/
 
 .features {
   padding-top: 120px;
@@ -217,7 +209,7 @@ ul {
   margin-top: 8px;
 }
 
-/* Services */
+/**--------------------- Services ---------------------*/
 
 .service-title {
   font-weight: 700;
@@ -238,7 +230,7 @@ ul {
   border: 1px solid var(--cornflower);
 }
 
-/* team */
+/**--------------------- team ---------------------*/
 
 .team {
   margin-top: 120px;
@@ -289,8 +281,7 @@ ul {
   text-align: center;
 }
 
-/* /Main */
-/* portfolio */
+/**--------------------- portfolio ---------------------*/
 
 .portfolio {
   padding-top: 96px;
@@ -360,8 +351,7 @@ ul {
   color: var(--slate);
 }
 
-/* /Portfolio */
-/* footer */
+/**--------------------- footer ---------------------*/
 
 .footer {
   padding-top: 102px;
@@ -393,4 +383,4 @@ ul {
   color: var(--cornflower);
 }
 
-/* /Footer */
+/**--------------------- /Footer ---------------------*/
