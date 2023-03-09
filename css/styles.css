@@ -28,6 +28,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
   color: var(--slate);
 }
 
@@ -87,6 +88,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
   color: var(--navi-blue);
 }
 
@@ -111,6 +113,7 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
   color: var(--navi-blue);
 }
 
@@ -142,6 +145,7 @@ ul {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
   color: var(--slate);
 }
 
@@ -168,6 +172,7 @@ ul {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+
   color: var(--white);
 }
 
@@ -178,11 +183,13 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+
   color: var(--white);
   background: var(--iris);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
+
   cursor: pointer;
 }
 
@@ -213,6 +220,7 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+
   color: var(--navi-blue);
 }
 
@@ -223,13 +231,15 @@ ul {
 /**--------------------- Services ---------------------*/
 
 .service-title {
+  text-align: center;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+
   color: var(--navi-blue);
-  text-align: center;
 }
 
 .services-list {
@@ -249,17 +259,20 @@ ul {
   margin-top: 120px;
   padding-top: 120px;
   padding-bottom: 120px;
+
   background-color: var(--cloud);
 }
 
 .team-title {
+  text-align: center;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+
   color: var(--navi-blue);
-  text-align: center;
 }
 
 .team-list {
@@ -285,17 +298,19 @@ ul {
 }
 
 .employee-title {
+  text-align: center;
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
+
   color: var(--navi-blue);
 }
 
 .employee-position {
-  margin-top: 8px;
   text-align: center;
+  margin-top: 8px;
 }
 
 /**--------------------- portfolio ---------------------*/
@@ -323,9 +338,11 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+
   color: var(--iris);
   background-color: var(--cloud);
   border: 1px solid var(--cornflower);
+
   cursor: pointer;
 }
 
@@ -339,9 +356,9 @@ ul {
 /** ---- Card ---- */
 
 .portfolio-list {
-  margin-top: 72px;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 72px;
 }
 
 .portfolio-item {
@@ -370,11 +387,13 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+
   color: var(--navi-blue);
 }
 
 .portfolio-text {
   margin-top: 7px;
+
   color: var(--slate);
 }
 
@@ -394,6 +413,7 @@ ul {
   line-height: 1.166;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
   color: var(--cloud);
 }
 
@@ -402,11 +422,12 @@ ul {
 }
 
 .footer-text {
-  margin-top: 16px;
   width: 264px;
+  margin-top: 16px;
 
   line-height: 1.5;
   letter-spacing: 0.02em;
+
   color: var(--cornflower);
 }
 
