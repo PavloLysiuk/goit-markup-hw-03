@@ -249,9 +249,12 @@ ul {
 
 .services-item:not(:last-child) {
   margin-right: var(--element-gap);
+}
 
+.services-item {
   border: 1px solid var(--cornflower);
 }
+
 
 /**--------------------- team ---------------------*/
 
